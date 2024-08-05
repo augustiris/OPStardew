@@ -1,0 +1,79 @@
+{
+    "Villagers":[
+        "Abigail","Alex",
+        "Caroline","Clint",
+        "Demetrius","Dwarf",
+        "Elliott","Emily","Evelyn",
+        "George","Gus",
+        "Haley","Harvey",
+        "Jas","Jodi",
+        "Kent","Krobus",
+        "Leah","Leo","Lewis","Linus",
+        "Marnie","Maru",
+        "Pam","Penny","Pierre",
+        "Robin",
+        "Sam","Sebastian","Shane","Sandy",
+        "Vincent",
+        "Willy"
+    ],
+    "Special Characters":[
+        "Birdie",
+        "Bouncer",
+        "Fizz",
+        "Gil",
+        "Governor",
+        "Grandpa",
+        "Gunther",
+        "Henchman",
+        "Marlon",
+        "Morris",
+        "Mr. Qi",
+        "Professor Snail"
+    ],
+    "Seasonal/Event Characters":[
+        "The Traveling Cart Vendor", 
+        "The Desert Trader", "Todor"
+    ],
+    "TODO":[
+        "Pet Names",
+        "Duplicate names with farmer or otherwise"
+    ],
+    "One Piece":{
+        "Strawhats":[
+            "Luffy",
+            "Zoro",
+            "Nami" ,
+            "Usopp",
+            "Sanji",
+            "Chopper",
+            "Nico Robin",
+            "Franky",
+            "Brook" ,
+            "Jinbe"
+        ],
+        "Heart Pirates":[
+            "Law",
+            "Bepo",
+            "Shachi",
+            "Pengiun"
+        ],
+        "Cross Guild":[
+            "Buggy",
+            "Mihawk",
+            "Crocodile"
+        ],
+        "Other":[
+            "Shanks",
+            "Rayleigh",
+            "Yamamoto",
+            "Sabo",
+            "Ace",
+            "Vivi",
+            "Doflamingo",
+            "Caesar",
+            "Dandan",
+            "Garp",
+            "Koby"
+        ]
+    }
+}
