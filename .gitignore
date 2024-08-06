@@ -8,10 +8,8 @@
 
 # Ignore everything under Mods
 Mods/*
-# Mods/[CP]*/
 
 # Don't ignore specific mod under Mods
 !Mods/Test
-!Mods/\[CP\] DevilFruits/
-
-
+# !Mods/\[CP\] DevilFruits/
+!Mods/\[CP\]\ */
