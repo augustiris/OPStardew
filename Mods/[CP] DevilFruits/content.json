@@ -1,7 +1,56 @@
 {
     "Format": "2.3.0",
     "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "DevilFruits_Gum-GumFruit": {
+                    "Name": "DevilFruits_Gum-GumFruit",
+                    "DisplayName": "Gum-Gum Fruit",
+                    "Description": "Luffy's devil fruit.",
+                    "Type": "Basic",
+                    "Category": -6,
+                    "Price": 1200,
 
-        
+                    "Texture": "Mods/[CP] DevilFruits/Objects",
+                    "SpriteIndex": 0
+                },
+                "DevilFruits_Gum-Gumsapling": {
+                    "Name": "DevilFruits_Gum-Gumsapling",
+                    "DisplayName": "Gum-Gumsapling",
+                    "Description": "An Gum-Gum tree sapling.",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 1200,
+
+                    "Texture": "Mods/[CP] DevilFruits/Objects",
+                    "SpriteIndex": 1
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/FruitTrees",
+            "Entries": {
+                "DevilFruits_Gum-Gumsapling": {
+                    "DisplayName": "Gum-Gum Fruit",
+                    "Seasons": [ "spring", "summer", "winter", "fall" ],
+                    "Fruit": [
+                        {
+                            "Id": "EDevilFruits_Gum-GumFruit",
+                            "ItemId": "DevilFruits_Gum-GumFruit"
+                        }
+                    ],
+                    "Texture": "Mods/[CP] DevilFruits/FruitTrees",
+                    "TextureSpriteRow": 0
+                }
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/[CP] DevilFruits/FruitTrees, Mods/[CP] DevilFruits/Objects",
+            "FromFile": "assets/luffyDF.png"
+        }
     ]
 }
