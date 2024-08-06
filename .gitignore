@@ -1,0 +1,17 @@
+# Ignore everything with a few exceptions
+/*
+!.gitignore
+!Dev/
+
+# Don't ignore Mods
+!Mods/
+
+# Ignore everything under Mods
+Mods/*
+# Mods/[CP]*/
+
+# Don't ignore specific mod under Mods
+!Mods/Test
+!Mods/\[CP\] DevilFruits/
+
+

@@ -1,0 +1,11 @@
+{
+    "Name": "Devil Fruits",
+    "Author": "Mel",
+    "Version": "1.0.0",
+    "Description": "Replaces fruits on trees with Devil Fruits.",
+    "UniqueID": "Mel.DevilFruits",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
