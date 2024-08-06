@@ -13,7 +13,7 @@
                     "Category": -6,
                     "Price": 1200,
 
-                    "Texture": "Mods/[CP] DevilFruits/Objects",
+                    "Texture": "Mods/[CP] DevilFruits/luffyDF",
                     "SpriteIndex": 0
                 },
                 "DevilFruits_Gum-Gumsapling": {
@@ -24,7 +24,7 @@
                     "Category": -74,
                     "Price": 1200,
 
-                    "Texture": "Mods/[CP] DevilFruits/Objects",
+                    "Texture": "Mods/[CP] DevilFruits/treeBases",
                     "SpriteIndex": 1
                 }
             }
@@ -42,15 +42,15 @@
                             "ItemId": "DevilFruits_Gum-GumFruit"
                         }
                     ],
-                    "Texture": "Mods/[CP] DevilFruits/FruitTrees",
+                    "Texture": "Mods/[CP] DevilFruits/treeBases",
                     "TextureSpriteRow": 0
                 }
             }
         },
         {
             "Action": "Load",
-            "Target": "Mods/[CP] DevilFruits/FruitTrees, Mods/[CP] DevilFruits/Objects",
-            "FromFile": "assets/luffyDF.png"
+            "Target": "Mods/{{ModId}}/FruitTrees, Mods/{{ModId}}/Objects",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
         }
     ]
 }
