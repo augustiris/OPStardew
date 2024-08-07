@@ -24,7 +24,7 @@
                     "Category": -74,
                     "Price": 1200,
 
-                    "Texture": "Mods/[CP] DevilFruits/assets/treeBases.png",
+                    "Texture": "TileSheets\\fruitTrees",
                     "SpriteIndex": 1
                 }
             }
@@ -42,20 +42,36 @@
                             "ItemId": "DevilFruits_Gum-GumFruit"
                         }
                     ],
-                    "Texture": "Mods/[CP] DevilFruits/assets/treeBases.png",
+                    "Texture": "TileSheets\\fruitTrees",
                     "TextureSpriteRow": 0
                 }
             }
         },
         {
             "Action": "Load",
-            "Target": "Mods/[CP] DevilFruits/Objects",
+            "Target": "Mods/[CP] DevilFruits/assets/luffyDF.png",
             "FromFile": "assets/luffyDF.png"
         },
         {
             "Action": "Load",
-            "Target": "Mods/[CP] DevilFruits/FruitTrees",
+            "Target": "Mods/[CP] DevilFruits/assets/treeBases.png",
             "FromFile": "assets/treeBases.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "Gum-GumGift": "That box... Did you eat the thing in that box!? -Shanks %item id (O)DevilFruits_Gum-GumFruit 15 %%[#]A 'Gift' From Shanks",
+                "Gum-GumsaplingGift": "Hmm... %item id (O)DevilFruits_Gum-Gumsapling 3 %%[#]A 'Gift' From Who?"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events",
+            "Entries": {
+                "SendGum-GumFruit/d Tue Wed Thu Fri Sat Sun": "addMailReceived Gum-GumGift",
+                "SendGum-GumSapling/d Tue Wed Thu Fri Sat Sun": "addMailReceived Gum-GumsaplingGift"
+            }
         }
     ]
 }
