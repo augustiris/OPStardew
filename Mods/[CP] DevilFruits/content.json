@@ -13,7 +13,7 @@
                     "Category": -6,
                     "Price": 1200,
 
-                    "Texture": "Mods/[CP] DevilFruits/assets/luffyDF.png",
+                    "Texture": "assets/luffyDF.png",
                     "SpriteIndex": 0
                 },
                 "DevilFruits_Gum-Gumsapling": {
@@ -24,7 +24,7 @@
                     "Category": -74,
                     "Price": 1200,
 
-                    "Texture": "TileSheets\\fruitTrees",
+                    "Texture": "assets/fruitTrees",
                     "SpriteIndex": 1
                 }
             }
@@ -42,7 +42,7 @@
                             "ItemId": "DevilFruits_Gum-GumFruit"
                         }
                     ],
-                    "Texture": "TileSheets\\fruitTrees",
+                    "Texture": "assets/fruitTrees",
                     "TextureSpriteRow": 0
                 }
             }
@@ -61,18 +61,20 @@
             "Action": "EditData",
             "Target": "Data/Mail",
             "Entries": {
+                "New-Mail":"Dear @,^Message body. ^Next Line.    ^   -Signature %item id (O)638 3 (O)66 1 %%[#]A Gift",
                 "Gum-GumGift": "That box... Did you eat the thing in that box!? -Shanks %item id (O)DevilFruits_Gum-GumFruit 15 %%[#]A 'Gift' From Shanks",
                 "Gum-GumsaplingGift": "Hmm... %item id (O)DevilFruits_Gum-Gumsapling 3 %%[#]A 'Gift' From Who?"
             }
         },
         {
-            "Action": "EditData",
-            "Target": "Data/Events",
-            "Entries": {
-                "spring_1_1": "addMailReceived Gum-GumGift",
-                "SendGum-GumFruit/d Tue Wed Thu Fri Sat Sun": "addMailReceived Gum-GumGift",
-                "SendGum-Gumsapling/d Tue Wed Thu Fri Sat Sun": "addMailReceived Gum-GumsaplingGift"
+            "Action": "Load",
+            "Target": "Data/Mail",
+            "When": {
+                "Season": "spring",
+                "Day": "3",
+                "Year": "1"
             }
         }
+        
     ]
 }
