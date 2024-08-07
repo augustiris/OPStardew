@@ -67,12 +67,12 @@
             }
         },
         {
-            "Action": "Load",
-            "Target": "Data/Mail",
-            "When": {
-                "Season": "spring",
-                "Day": "3",
-                "Year": "1"
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {
+                "SendNewMail": "/mail New-Mail/end",
+                "SendGum-GumFruit": "/mail Gum-GumGift/end",
+                "SendGum-Gumsapling": "/mail Gum-GumsaplingGift/end"
             }
         }
         
