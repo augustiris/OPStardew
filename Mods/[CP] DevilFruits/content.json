@@ -44,7 +44,7 @@
                         }
                     ],
                     "Texture": "Mods/DevilFruits/FruitTrees",
-                    "TextureSpriteRow": 9
+                    "TextureSpriteRow": 5
                 }
             }
         },
@@ -56,7 +56,7 @@
         {
             "Action": "Load",
             "Target": "Mods/DevilFruits/FruitTrees",
-            "FromFile": "assets/treeBases.png"
+            "FromFile": "assets/fruitTrees.png"
         }   
     ]
 }
