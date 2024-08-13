@@ -12,7 +12,8 @@
                     "Type": "Basic",
                     "Category": -79,
                     "Price": 1200,
-
+                    "Edibility": 15,
+                    
                     "Texture": "Mods/DevilFruits/Objects",
                     "SpriteIndex": 937
                 },
