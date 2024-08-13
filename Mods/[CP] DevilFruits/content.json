@@ -14,7 +14,7 @@
                     "Price": 1200,
 
                     "Texture": "Mods/DevilFruits/Objects",
-                    "SpriteIndex": 638
+                    "SpriteIndex": 937
                 },
                 "DevilFruits_Gum-Gumsapling": {
                     "Name": "DevilFruits_Gum-Gumsapling",
@@ -25,7 +25,7 @@
                     "Price": 1200,
                     
                     "Texture": "Mods/DevilFruits/Objects",
-                    "SpriteIndex": 628
+                    "SpriteIndex": 936
                 }
             }
         },
