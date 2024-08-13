@@ -10,10 +10,10 @@
                     "DisplayName": "Gum-Gum Fruit",
                     "Description": "Luffy's devil fruit.",
                     "Type": "Basic",
-                    "Category": -6,
+                    "Category": -72,
                     "Price": 1200,
 
-                    "Texture": "assets/luffyDF.png",
+                    "Texture": "Mods/DevilFruits/Objects",
                     "SpriteIndex": 0
                 },
                 "DevilFruits_Gum-Gumsapling": {
@@ -23,8 +23,8 @@
                     "Type": "Basic",
                     "Category": -74,
                     "Price": 1200,
-
-                    "Texture": "assets/fruitTrees",
+                    
+                    "Texture": "Mods/DevilFruits/Objects",
                     "SpriteIndex": 1
                 }
             }
@@ -34,47 +34,21 @@
             "Target": "Data/FruitTrees",
             "Entries": {
                 "DevilFruits_Gum-Gumsapling": {
-                    "DisplayName": "Gum-Gum Fruit",
+                    "DisplayName": "Gum-Gumsapling",
                     "Seasons": [ "spring", "summer", "winter", "fall" ],
                     "Fruit": [
                         {
                             "Id": "EDevilFruits_Gum-GumFruit",
                             "ItemId": "DevilFruits_Gum-GumFruit"
                         }
-                    ],
-                    "Texture": "assets/fruitTrees",
-                    "TextureSpriteRow": 0
+                    ]
                 }
             }
         },
         {
             "Action": "Load",
-            "Target": "Mods/[CP] DevilFruits/assets/luffyDF.png",
-            "FromFile": "assets/luffyDF.png"
-        },
-        {
-            "Action": "Load",
-            "Target": "Mods/[CP] DevilFruits/assets/treeBases.png",
-            "FromFile": "assets/treeBases.png"
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Mail",
-            "Entries": {
-                "spring_3_1":"Dear @,^Message body. ^Next Line.    ^   -Signature %item id (O)638 3 (O)DevilFruits_Gum-GumFruit 15 (O)DevilFruits_Gum-Gumsapling 3 %%[#]A Gift",
-                "New-Mail":"Dear @,^Message body. ^Next Line.    ^   -Signature %item id (O)638 3 (O)66 1 %%[#]A Gift",
-                "Gum-GumGift": "That box... Did you eat the thing in that box!? -Shanks %item id (O)DevilFruits_Gum-GumFruit 15 %%[#]A 'Gift' From Shanks",
-                "Gum-GumsaplingGift": "Hmm... %item id (O)DevilFruits_Gum-Gumsapling 3 %%[#]A 'Gift' From Who?"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Events/Farm",
-            "Entries": {
-                "SendNewMail": "/mail New-Mail/end",
-                "SendGum-GumFruit": "/mail Gum-GumGift/end",
-                "SendGum-Gumsapling": "/mail Gum-GumsaplingGift/end"
-            }
+            "Target": "Mods/DevilFruits/Objects",
+            "FromFile": "assets/DevilFruitObjects.png"
         }
         
     ]
