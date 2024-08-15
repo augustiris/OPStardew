@@ -8,14 +8,29 @@
                 "DevilFruits_Gum-GumFruit": {
                     "Name": "DevilFruits_Gum-GumFruit",
                     "DisplayName": "Gum-Gum Fruit",
-                    "Description": "Luffy's devil fruit.",
+                    "Description": "Luffy's devil fruit",
                     "Type": "Basic",
                     "Category": -79,
-                    "Price": 1200,
-                    "Edibility": 15,
-                    
+                    "Price": 80,
                     "Texture": "Mods/DevilFruits/Objects",
-                    "SpriteIndex": 937
+                    "SpriteIndex": 937,
+                    "Edibility": 15,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "CanBeGivenAsGift": true,
+                    "CanBeTrashed": true,
+                    "ExcludeFromFishingCollection": false,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                      "color_purple",
+                      "fruit_item",
+                      "fruit_tree_item"
+                    ],
+                    "CustomFields": null
                 },
                 "DevilFruits_Gum-Gumsapling": {
                     "Name": "DevilFruits_Gum-Gumsapling",
@@ -41,6 +56,10 @@
                         {
                             "Id": "EDevilFruits_Gum-GumFruit",
                             "ItemId": "DevilFruits_Gum-GumFruit"
+                        },
+                        {
+                            "Id": "E638",
+                            "ItemId": "638"
                         }
                     ],
                     "Texture": "Mods/DevilFruits/FruitTrees",
