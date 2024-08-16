@@ -56,10 +56,6 @@
                         {
                             "Id": "EDevilFruits_Gum-GumFruit",
                             "ItemId": "DevilFruits_Gum-GumFruit"
-                        },
-                        {
-                            "Id": "E638",
-                            "ItemId": "638"
                         }
                     ],
                     "Texture": "Mods/DevilFruits/FruitTrees",
