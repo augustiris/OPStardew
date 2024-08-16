@@ -61,12 +61,12 @@
                     "Seasons": [ "spring", "summer", "winter", "fall" ],
                     "Fruit": [
                         {
-                            "Id": "EDevilFruits_SmileFruit",
-                            "ItemId": "DevilFruits_SmileFruit"
-                        },
-                        {
                             "Id": "EDevilFruits_Gum-GumFruit",
                             "ItemId": "DevilFruits_Gum-GumFruit"
+                        },
+                        {
+                            "Id": "EDevilFruits_SmileFruit",
+                            "ItemId": "DevilFruits_SmileFruit"
                         }
                     ],
                     "Texture": "Mods/DevilFruits/FruitTrees",
