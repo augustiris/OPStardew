@@ -14,23 +14,30 @@
                     "Price": 80,
                     "Texture": "Mods/DevilFruits/Objects",
                     "SpriteIndex": 937,
-                    "Edibility": 15,
-                    "IsDrink": false,
+                    "Edibility": 50,
                     "Buffs": null,
-                    "GeodeDropsDefaultItems": false,
-                    "GeodeDrops": null,
-                    "ArtifactSpotChances": null,
-                    "CanBeGivenAsGift": true,
-                    "CanBeTrashed": true,
-                    "ExcludeFromFishingCollection": false,
-                    "ExcludeFromShippingCollection": false,
-                    "ExcludeFromRandomSale": false,
                     "ContextTags": [
                       "color_purple",
                       "fruit_item",
                       "fruit_tree_item"
-                    ],
-                    "CustomFields": null
+                    ]
+                },
+                "DevilFruits_SmileFruit": {
+                    "Name": "DevilFruits_SmileFruit",
+                    "DisplayName": "Smile Fruit",
+                    "Description": "An ominious devil fruit",
+                    "Type": "Basic",
+                    "Category": -79,
+                    "Price": 80,
+                    "Texture": "Mods/DevilFruits/Objects",
+                    "SpriteIndex": 938,
+                    "Edibility": -100,
+                    "Buffs": null,
+                    "ContextTags": [
+                      "color_red",
+                      "fruit_item",
+                      "fruit_tree_item"
+                    ]
                 },
                 "DevilFruits_Gum-Gumsapling": {
                     "Name": "DevilFruits_Gum-Gumsapling",
@@ -53,6 +60,10 @@
                     "DisplayName": "Gum-Gumsapling",
                     "Seasons": [ "spring", "summer", "winter", "fall" ],
                     "Fruit": [
+                        {
+                            "Id": "EDevilFruits_SmileFruit",
+                            "ItemId": "DevilFruits_SmileFruit"
+                        },
                         {
                             "Id": "EDevilFruits_Gum-GumFruit",
                             "ItemId": "DevilFruits_Gum-GumFruit"
