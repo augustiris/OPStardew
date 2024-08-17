@@ -1,13 +1,16 @@
 # Ignore everything with a few exceptions
 /*
 !.gitignore
-!Dev/
 
 # Don't ignore Mods
 !Mods/
+!Dev/
 
 # Ignore everything under Mods
 Mods/*
 
 # Don't ignore specific mod under Mods
 !Mods/\[CP\]\ */
+
+# Ignore other
+Dev/FruitTrees/.vs
