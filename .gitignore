@@ -11,4 +11,6 @@ Mods/*
 
 # Don't ignore specific mod under Mods
 !Mods/\[CP\]\ */
+
+# Ignore other
 Dev/FruitTrees/.vs
