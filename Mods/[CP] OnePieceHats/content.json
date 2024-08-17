@@ -1,0 +1,22 @@
+{
+    "Format": "2.3.0",
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Farmer/hats",
+            "Entries": {
+                "SaboHat":"OnePieceHats_Sabo/A large black top hat with a pair of blue goggles wrapped around it./true/false//Sabo's Hat/121/",
+                "AceHat":"OnePieceHats_Ace/An orange hat with a string of red beads sitting above the rim with one frowny and one smiley face. Two long orange side straps hang down sides meet at a large medallion of a bull's skull with orange tassels./true/false//Ace's Hat/122/",
+                "LuffyHat":"OnePieceHats_Luffy/A hat gifted by Shanks./true/false//Luffy's Hat/123/",
+                "LawHat":"OnePieceHats_Law/A white northern-style fur hat with a spotted pattern along the bottom and the bill./true/false//Law's Hat/124/",
+                "ChopperHat":"OnePieceHats_Law/A blue cap worn over Chopper's old pink hat. The cap has a ring of dots around a circle and buckles hanging from it./true/false//Chopper's Hat/124/"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/OnePieceHats/Objects",
+            "FromFile": "assets/hats.png"
+        }
+
+    ]
+}

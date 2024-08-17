@@ -1,0 +1,11 @@
+{
+    "Name": "One Piece Hats",
+    "Author": "Mel",
+    "Version": "1.0.0",
+    "Description": "Adds One Piece Hats",
+    "UniqueID": "Mel.OnePieceHats",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
