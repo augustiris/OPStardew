@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zQ9DaoGR2Bo=",
+  "success": true,
+  "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Dev\\FruitTrees\\FruitTrees\\FruitTrees.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ahlsj\\.nuget\\packages\\pathoschild.stardew.modbuildconfig\\4.1.1\\pathoschild.stardew.modbuildconfig.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
